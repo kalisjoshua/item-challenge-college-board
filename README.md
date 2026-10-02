@@ -1,14 +1,19 @@
 # Item Challenge
 
-Welcome! This is a take-home coding assignment for a software engineering position. In this challenge, you'll be building a simplified version of an exam item management API with cloud infrastructure.
+Welcome! This is a take-home coding assignment for a software engineering
+position. In this challenge, you'll be building a simplified version of an exam
+item management API with cloud infrastructure.
 
-Once you're ready to get started, read through [GETTING_STARTED.md](GETTING_STARTED.md).
+Once you're ready to get started, read through
+[GETTING_STARTED.md](GETTING_STARTED.md).
 
 ## Your Task (1-3 hours)
 
-**Please do not spend more than 3 hours on this. It is not expected for your solution to be perfectly polished and we want to be respectful of your time.**
+**Please do not spend more than 3 hours on this. It is not expected for your
+solution to be perfectly polished and we want to be respectful of your time.**
 
-Build a simplified exam item management system that demonstrates your ability to design scalable, secure APIs with proper cloud infrastructure.
+Build a simplified exam item management system that demonstrates your ability to
+design scalable, secure APIs with proper cloud infrastructure.
 
 ### 1. API Implementation (TypeScript + Node.js)
 
@@ -30,19 +35,23 @@ GET    /api/items/:id/audit    - Get audit trail for an item
 - Use appropriate HTTP status codes for responses
 - Focus on 2-3 endpoints working well rather than all 6 partially done
 
-**Note:** A local development server is provided for testing. Your handlers should be written with Lambda deployment in mind, but you'll test them locally.
+**Note:** A local development server is provided for testing. Your handlers
+should be written with Lambda deployment in mind, but you'll test them locally.
 
 ### 2. Infrastructure as Code
 
-Define the cloud infrastructure needed to deploy this system using **either** AWS CDK **or** Terraform (your choice).
+Define the cloud infrastructure needed to deploy this system using **either**
+AWS CDK **or** Terraform (your choice).
 
 **Goals:**
 
 - Use AWS CDK (TypeScript preferred) **OR** Terraform
-- Define resources: Lambda functions, API Gateway, DynamoDB (optional), IAM roles, CloudWatch logs
+- Define resources: Lambda functions, API Gateway, DynamoDB (optional), IAM
+  roles, CloudWatch logs
 - Include comments explaining your design choices
 - Define environment-specific configurations
-- You do **not** need to actually deploy - just provide valid infrastructure code
+- You do **not** need to actually deploy - just provide valid infrastructure
+  code
 
 **Validation:**
 
@@ -83,7 +92,8 @@ Design storage for exam items with this structure:
 - Design appropriate DynamoDB keys and indexes (documented in ARCHITECTURE.md)
 - Implement basic CRUD operations
 
-**Note:** An in-memory storage implementation is provided for local testing. You can optionally implement DynamoDB storage if you want to go the extra mile.
+**Note:** An in-memory storage implementation is provided for local testing. You
+can optionally implement DynamoDB storage if you want to go the extra mile.
 
 ### 4. Architectural Decision Document
 
@@ -109,20 +119,25 @@ pnpm dev
 ## What We're Evaluating
 
 - **Code Quality:** Clean, readable, maintainable code
-- **AWS Knowledge:** Proper use of Lambda, API Gateway, DynamoDB, IAM, CloudWatch
+- **AWS Knowledge:** Proper use of Lambda, API Gateway, DynamoDB, IAM,
+  CloudWatch
 - **Infrastructure as Code:** Well-structured CDK/Terraform with best practices
 - **NoSQL Design:** Appropriate key design and access patterns
-- **Testing:** Well-structured tests with good coverage of core functionality (optional but encouraged)
+- **Testing:** Well-structured tests with good coverage of core functionality
+  (optional but encouraged)
 - **Prioritization:** How you approach the time constraint
 
 ## Submission
 
-Please fork this repository and submit your completed solution by sharing your forked repo link with your recruiter.
+Please fork this repository and submit your completed solution by sharing your
+forked repo link with your recruiter.
 
 ### Include the following in your submission:
 
-- Instructions on how to run your solution locally  
-- Include a brief `ARCHITECTURE.md` describing your system’s structure and key components  
-Good luck! We're excited to see your solution.
+- Instructions on how to run your solution locally
+- Include a brief `ARCHITECTURE.md` describing your system’s structure and key
+  components\
+  Good luck! We're excited to see your solution.
 
-> See also the [Glossary](./GLOSSARY.md) for definitions of key terms used in this challenge.
+> See also the [Glossary](./GLOSSARY.md) for definitions of key terms used in
+> this challenge.

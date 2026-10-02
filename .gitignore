@@ -34,3 +34,10 @@ yarn-error.log*
 
 # Testing
 coverage/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+src.zip
